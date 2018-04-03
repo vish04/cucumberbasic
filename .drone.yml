@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: test:1.9
+    image: golang:1.6
     commands:
            - mvn clean
            - mvn test
