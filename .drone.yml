@@ -2,4 +2,4 @@ pipeline:
   build:
     image: maven:3-jdk-8
     commands:
-     - mvn clean
+     - mvn clean test build
