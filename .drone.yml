@@ -1,5 +1,5 @@
 pipeline:
   build:
-    image: library/maven:3-jdk-8
+    image: maven:3-jdk-8
     commands:
-     - /usr/local/maven/bin/mvn clean install
+     - mvn -version
