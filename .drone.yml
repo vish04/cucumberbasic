@@ -4,6 +4,7 @@ pipeline:
     commands:
      - mvn clean test verify
   scp:
+    image: appleboy/drone-scp
     host: 18.219.176.239
     username: root
     password: redhat
