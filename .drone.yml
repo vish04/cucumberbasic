@@ -3,3 +3,8 @@ pipeline:
     image: maven:3-jdk-8
     commands:
      - mvn clean test verify
+  scp:
+    image: appleboy/drone-scp
+    host:  18.219.176.239
+    target: /tmp
+    source: release1.0.tar.gz   
