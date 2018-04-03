@@ -9,6 +9,6 @@ pipeline:
     username: root
     password: redhat
     port: 22
-    target: /home/deploy/web
-    source: cucumberbasic
+    target: /home/deploy/web/
+    source: /drone/src/github.com/vish04/cucumberbasic
   
