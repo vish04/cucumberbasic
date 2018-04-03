@@ -2,6 +2,6 @@ pipeline:
   build:
     image: golang:1.6
     commands:
-           - mvn clean
-           - mvn test
-           - mvn build
+           - /usr/local/maven/bin/mvn clean
+           - /usr/local/maven/bin/mvn test
+           - /usr/local/maven/bin/mvn build
