@@ -1,0 +1,7 @@
+pipeline:
+  build:
+    image: test:1.9
+    commands:
+           - mvn clean
+           - mvn test
+           - mvn build
