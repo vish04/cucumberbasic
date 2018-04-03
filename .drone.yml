@@ -10,5 +10,5 @@ pipeline:
     password: redhat
     port: 22
     target: /home/deploy/web/
-    source: /drone/src/github.com/vish04/cucumberbasic
+    source: ./target
   
