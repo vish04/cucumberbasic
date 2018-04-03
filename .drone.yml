@@ -1,7 +1,5 @@
 pipeline:
   build:
-    image: golang:1.6
+    image: library/maven:3-jdk-8
     commands:
-           - /usr/local/maven/bin/mvn clean
-           - /usr/local/maven/bin/mvn test
-           - /usr/local/maven/bin/mvn build
+     - /usr/local/maven/bin/mvn clean install
